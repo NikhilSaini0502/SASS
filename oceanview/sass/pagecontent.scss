@@ -1,0 +1,50 @@
+.verticalline1{
+    margin: 100px 0;
+}
+.page-content {
+    margin: 20px 0;
+  .upperquotes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ownerinfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0;
+    h4 {
+        text-align: center;
+        padding: 0 200px;
+      font-size: 1.5rem;
+      line-height: 1.3em;
+      font-weight: $fontweight-1;
+      letter-spacing: -0.25px;
+      margin-bottom: 20px;
+    }
+    p{
+        font-weight: $fontweight-1;
+        color: #000000a6;
+    }
+  }
+}
+@media (max-width:992px) {
+    .page-content{
+        .ownerinfo{
+            h4{
+                padding: 0;
+            }
+        }
+    }
+}
+@media (max-width:768px) {
+    .page-content{
+        .ownerinfo{
+            padding: 20px 20px;
+            h4{
+                font-size: 1.25rem;
+            }
+        }
+    }
+}

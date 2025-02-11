@@ -1,0 +1,104 @@
+.banner-03 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+  .bannner03-left {
+    width: 45%;
+    padding: 130px 0;
+    h2 {
+      font-size: 2.625rem;
+      font-weight: 600;
+      line-height: 1.2em;
+      letter-spacing: -1px;
+      margin-bottom: 20px;
+    }
+    p {
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.658);
+        font-size: 16px;
+        text-align: left;
+        line-height: 1.63;
+        margin-bottom: 30px;
+    }
+    .banner3-list{
+        display: flex;
+        justify-content: space-between;
+        padding-right: 100px;
+        li{
+            font-weight: $fontweight-1;
+            line-height: 2.65;
+            color: #373636d8;
+            img{
+                padding-right: 20px;
+            }
+        }
+    }
+  }
+  .banner03-right {
+    width: 45%;
+    opacity: 0.7;
+    background-image: url("https://websitedemos.net/homestay-04/wp-content/uploads/sites/1479/2023/07/amenities-02.jpg");
+    padding: 60px 0;
+    img{
+        margin-left: -60px;
+    }
+  }
+}
+@media (max-width:1090px){
+    .banner3-list{
+        padding-right: 60px !important;
+    }
+}
+@media (max-width:1090px){
+    .banner3-list{
+        padding-right: 0px !important;
+    }
+}
+@media (max-width:768px) {
+    .banner-03{
+        display: block;
+        .bannner03-left{
+            width: 100%;
+            h2{
+                font-size: 30px;
+            }
+            p{
+                font-size: 14px;
+            }
+            .banner3-list{
+                display: flex;
+                justify-content: flex-start;
+                li{
+                    font-size: 14px;
+                }
+            }
+        }
+        .banner03-right{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img{
+                margin-left: 0 !important;
+            }
+        }
+    }
+}
+@media (max-width:992px){
+    .banner-03{
+        margin-bottom: 60px;
+        .bannner03-left{
+            padding: 0;
+            padding-bottom: 40px;
+            .banner3-list{
+                padding-right: 20px;
+                li{
+                    font-size: 14px;
+                    img{
+                        padding-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
